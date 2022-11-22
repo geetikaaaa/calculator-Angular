@@ -1,0 +1,123 @@
+.my-calc{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.all-btn{
+    display: flex;
+}
+
+.all-btn-nums{
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+}
+
+.all-btn-signs{
+    display: flex;
+    flex-direction: column;
+}
+
+.all-btn-nums button{
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-btn-signs button{
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: 25px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.all-btn-signs button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px white;
+}
+
+.all-btn-nums button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px beige;
+}
+
+.btn-extra{
+    display: flex;
+}
+
+.btn-extra button{
+    background-color: white;
+    color: black;
+}
+
+.btn-extra button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px bisque;
+}
+
+.btn-clear-equals{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-clear-equals button{
+    width: 120px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#clear{
+    color: black;
+    background-color: beige;
+}
+
+#equals{
+    color: black;
+    background-color: beige;
+}
+
+#clear:hover, #equals:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px bisque;
+}
+
+input{
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 1px solid rgb(126, 122, 122) ;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid rgb(54, 53, 53);
+}
